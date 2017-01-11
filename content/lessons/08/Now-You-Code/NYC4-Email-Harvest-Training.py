@@ -19,8 +19,6 @@ Example Run:
 Wrote 27 emails to NYC4-emails.txt
 
 
-After 100000 flips. Heads: 50030, Tails 49970
-
 Start out your program by writing your TODO list of steps
 you'll need to solve the problem!
 '''
