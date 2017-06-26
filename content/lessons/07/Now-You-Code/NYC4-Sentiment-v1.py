@@ -46,5 +46,62 @@ you'll need to solve the problem!
 '''
 
 # TODO: Write Todo list then beneath write your code
+# 1. define our function sentiment
+#       a. Should take postive_text, negative_text, input_text
+#       b. Check each word in input_text against negative decrement 1
+#       c. Check each work in input_text against positive increment 1
+#       d. return score
+# 2. define our list of positive_words
+# 3. define our list of negative_words
+# 4. Ask the user for input
+# 5. Call our sentiment function
+# 6. Print out the score
 
-# Write code here
+"""
+sentiment:
+Checks user input against positive and negative list of words
+decrements score if negative
+increments score if positive
+returns score.
+
+params:
+positive_text list(strings)
+negative_text list(strings)
+input_text string
+return: integer
+"""
+def sentiment(positive_text, negative_text, input_text):
+    score = 0
+    words = input_text.split()
+    for word in words:
+        if word in positive_text:
+            score = score + 1
+        if word in negative_text:
+            score = score - 1
+    return score
+
+
+positive_list_words = ['happy', 'ist256', 'fun', 'python', 'great']
+negative_list_words = ['school', 'sad', 'mad', 'bad', 'terrible']
+
+user_input = input("Please enter a string")
+
+result = sentiment(positive_list_words, negative_list_words, user_input)
+result_text = 'neutral'
+if result > 0:
+    result_text = 'positive'
+elif result < 0:
+    result_text = 'negative'
+
+print('%d %s' % (result, result_text))
+
+
+
+
+
+
+
+
+
+
+
