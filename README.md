@@ -11,7 +11,7 @@ This repository contains all of the code artifacts from the course, specifically
 
 - **Watch Me Code**: The in-lecture code demonstrations. These are usually short and to the point.
 - **End-To-End Examples**: The in-lecture real-world programming examples. These are longer code examples which solve an actual problem.
-- **In-Class Coding Lab**: The in-class coding labs walk you through a programming exercise. They're designed to get your feet wet prior to working on the homework.
+- **Class Coding Lab**: The class coding labs walk you through a programming exercise. They're designed to get your feet wet prior to working on the homework.
 - **Now You Code**: These are homework exercises, started in class, and completed outside of class.
 
 ## Folder structure in this Repository
