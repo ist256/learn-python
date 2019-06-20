@@ -24,11 +24,11 @@ HINT: to handle the 3rd case you must keep a runnning count of hashtags
 you find in the Tweet.
 
 
-As usual, start out your program by writing your TODO list of steps
+As usual, start out your program by writing the TODO list of steps
 you'll need to solve the problem!
 '''
 
-# TODO: Write Todo list then beneath write your code
+# TODO: Write Todo list then write your code
 
 
 # Write code here
