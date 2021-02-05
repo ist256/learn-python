@@ -1,0 +1,9 @@
+version: "3.1"
+
+services:
+  jupyter:
+    image: mafudge/jhub-datasci-notebook:20210203a
+    ports:
+      - 8888:8888
+    volumes:
+      - ./content:/home/jovyan/library/

@@ -1,0 +1,16 @@
+Yuengling Premium Beer,135.0
+Wyder's Apple Cider,150.0
+Blatz Beer,153.0
+Corona Light,99.0
+Carling Black Label,138.0
+Bud Dry,130.0
+Anchor Steam,153.0
+Blatz Beer,153.0
+Abita Amber,128.0
+Abita Golden,125.0
+Abita Amber,128.0
+Blatz Beer,153.0
+Anchor Steam,153.0
+Coors Light,102.0
+Blatz Beer,153.0
+Blue Moon Full Moon Winter Ale,180.0

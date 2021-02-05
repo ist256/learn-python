@@ -1,20 +1,31 @@
-# learn-python
-Source Code Repository for the IST256 Python course at Syracuse University!
+# Learn Python! [https://ist256.com](https://ist256.com)
+
+Source Code Repository for learning python, based on My IST256 Python course at Syracuse University!
+
+This code is free for use by other instructors and self-directed learners alike. If you want to teach Python programming or learn it you've come to the right place!
 
 ## Important
 
-If you're enrolled in IST256, you should NOT clone this Repository directly. Instead you should use the invite code issued through GitHub classroom, which can be found on our course website.
+If you're enrolled in IST256 at Syracuse University, you should NOT use this Repository. Instead you will use our hosted JupyterHub programming environment.
 
-## About the code in this Repository
+## Setup
 
-This repository contains all of the code artifacts from the course, specifically:
+The programming environment uses Jupyter Notebooks and runs in a docker container. You must have Docker installed on your computer to run the container. To get docker visit: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/).
 
-- **Watch Me Code**: The in-lecture code demonstrations. These are usually short and to the point.
-- **End-To-End Examples**: The in-lecture real-world programming examples. These are longer code examples which solve an actual problem.
-- **Class Coding Lab**: The class coding labs walk you through a programming exercise. They're designed to get your feet wet prior to working on the homework.
-- **Now You Code**: These are homework exercises, started in class, and completed outside of class.
+Once docker is setup you can bring up the notebook using Docker Compose from the command line:
 
-## Folder structure in this Repository
+`docker-compose up`
 
-There are 14 lessons in the course. Each lesson has its own folder under `content/lessons`. Inside each lesson folder you will find folders for `Watch Me Code`, `End-To-End Example`, `In-Class Coding Lab` and and `Now You Code` homework. In the event a folder is missing it implies that lesson does not contain that kind of activity.
+You will see a link to the Jupyter application in the logs. click on it to open Jupyter!
 
+When you need to shut down Jupyter, go back to the logs and press `CTRL` + `C` to stop. Then from the command line type:
+
+`docker-compose down`
+
+Assigned readings, lecture videos, lab walk through, and homework advice can be found on the course website [https://ist256.com](https://ist256.com)
+
+
+Happy Programming!
+
+Best,
+Michael
